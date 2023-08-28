@@ -1,0 +1,7 @@
+executable            = submit.sh
+arguments             = $(ClusterId)$(ProcId)
+output                = logs/proc_t.$(ClusterId).$(ProcId).out
+error                 = logs/proc_t.$(ClusterId).$(ProcId).err
+log                   = logs/proc_t.$(ClusterId).log
+
+queue 1

@@ -1,0 +1,16 @@
+{
+    "Electron":
+        "Electron_PT > 10 && abs(Electron_Eta) < 2.4",
+    "Muon":
+        "Muon_PT > 10 && abs(Muon_Eta) < 2.4",
+    "Photon":
+        "Photon_PT > 10 && abs(Photon_Eta) < 2.4",
+    "Jet": 
+        "Jet_PT > 30 && abs(Jet_Eta) < 5",
+    "Tau":
+        "Jet_PT > 30 && abs(Jet_Eta) < 2.4 && Jet_TauTag == 1",
+    "B":
+        "Jet_PT > 30 && abs(Jet_Eta) < 2.4 && Jet_BTag == 1",
+    "MET":
+        "MET_MET > 10"
+}

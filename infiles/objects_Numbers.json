@@ -1,8 +1,8 @@
 {
     "Electron": 0,
-    "Muon": 0,
+    "Muon": 1,
     "Photon": "NA",
     "Jet": 2,
-    "Tau": 1,
+    "Tau": 0,
     "B": 1
 }
